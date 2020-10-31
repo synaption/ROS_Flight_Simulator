@@ -1,0 +1,8 @@
+prefix=/home/desktop_ubuntu/catkin_ws/install
+
+Name: spatial_ros
+Description: Description of spatial_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lspatial_ros
+Requires: 

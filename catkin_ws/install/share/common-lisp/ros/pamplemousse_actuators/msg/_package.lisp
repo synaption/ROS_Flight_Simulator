@@ -1,0 +1,11 @@
+(cl:defpackage pamplemousse_actuators-msg
+  (:use )
+  (:export
+   "<WINGACTUATORCANFRAME>"
+   "WINGACTUATORCANFRAME"
+   "<WINGACTUATORCOMMANDS>"
+   "WINGACTUATORCOMMANDS"
+   "<WINGACTUATORSTATES>"
+   "WINGACTUATORSTATES"
+  ))
+

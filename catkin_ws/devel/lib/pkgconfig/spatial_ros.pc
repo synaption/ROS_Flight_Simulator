@@ -1,0 +1,8 @@
+prefix=/home/desktop_ubuntu/catkin_ws/devel
+
+Name: spatial_ros
+Description: Description of spatial_ros
+Version: 0.0.0
+Cflags: -I/home/desktop_ubuntu/catkin_ws/src/ros-pamplemousse-packages-master/spatial_ros/include
+Libs: -L${prefix}/lib -lspatial_ros
+Requires: 

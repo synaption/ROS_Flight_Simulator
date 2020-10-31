@@ -1,0 +1,8 @@
+prefix=/home/desktop_ubuntu/catkin_ws/devel
+
+Name: pamplemousse_sensors
+Description: Description of pamplemousse_sensors
+Version: 0.0.0
+Cflags: -I/home/desktop_ubuntu/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

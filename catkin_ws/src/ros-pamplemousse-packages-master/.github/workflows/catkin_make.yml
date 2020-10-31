@@ -1,0 +1,24 @@
+name: Catkin make
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:      
+      - uses: ros-tooling/setup-ros@0.0.25
+      - name: Setup ROS environment
+        with:
+          required-ros-distribution: melodic
+      - run: "source /opt/ros/melodic/setup.bash && mkdir -p ~/catkin_ws/src"
+      - name: Checkout repo
+      - run: "cd ~/catkin_ws/src"
+      - uses: actions/checkout@v2
+      - name: "Catkin make"
+      - run: "cd ~/catkin_ws && catkin_make"

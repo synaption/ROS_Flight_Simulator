@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libspatial_ros.so -o /home/desktop_ubuntu/catkin_ws/devel/lib/libspatial_ros.so CMakeFiles/spatial_ros.dir/src/an_packet_protocol.c.o CMakeFiles/spatial_ros.dir/src/rs232.c.o CMakeFiles/spatial_ros.dir/src/spatial_packets.c.o 

@@ -1,0 +1,2 @@
+ros-pamplemousse-packages-master/pamplemousse_actuators:ros-pamplemousse-packages-master/pamplemousse_sensors:ros-pamplemousse-packages-master/spatial_ros
+-DCATKIN_DEVEL_PREFIX=/home/desktop_ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/desktop_ubuntu/catkin_ws/install -G Unix Makefiles
